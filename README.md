@@ -11,7 +11,7 @@ This project implements a **Sentiment Analysis** model using machine learning te
 - Visualization of results (optional)
 
 ## Dataset
-The dataset used for this project is the **IMDb Movie Reviews Dataset**, which contains 50,000 movie reviews labeled as either positive or negative.
+The dataset used for this project is the **IMDb Movie Reviews Dataset**, which contains 5,000 movie reviews labeled as either positive or negative.
 
 ## Technology Stack
 - **Python** for the implementation
@@ -31,7 +31,7 @@ The dataset used for this project is the **IMDb Movie Reviews Dataset**, which c
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-repo/sentiment-analysis.git
+    git clone https://github.com/Shanvithareddy/Sentiment-Analysis-Project.git
     ```
 2. Install required libraries:
     ```bash
@@ -49,7 +49,7 @@ The dataset used for this project is the **IMDb Movie Reviews Dataset**, which c
 1. Download the dataset and place it in the `data/` directory.
 2. Run the following command to train the model:
     ```bash
-    python sentiment_analysis.py
+    python movie_reviews_sentiment_analysis.py
     ```
 3. To predict a new review:
     ```bash
@@ -59,9 +59,3 @@ The dataset used for this project is the **IMDb Movie Reviews Dataset**, which c
 ## Results
 - The model achieved an accuracy of **85%** on the IMDb movie review dataset.
 
-## Future Enhancements
-- Improve accuracy with advanced models (e.g., **LSTM** or **BERT**).
-- Deploy the model using **Flask** or **FastAPI** for real-time sentiment analysis.
-
-## License
-This project is licensed under the **MIT License**.
